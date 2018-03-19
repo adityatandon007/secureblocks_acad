@@ -9,7 +9,7 @@
 - Benefits from native features
 - Engaging
 
-** This is a work in progress. Run it in development environment only. Follow the below steps:**
+** This is a work in progress. Run it in development environment only. Follow the below steps: **
 
 ## Build Setup
 
