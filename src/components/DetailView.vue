@@ -1,19 +1,19 @@
 <template>
   <div class="mdl-grid">
     <div class="mdl-cell mdl-cell--8-col">
-      <div class="picture">
-        <iframe width="100%" height="315" :src="this.pictures[$route.params.id].url" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+      <div class="video">
+        <iframe width="100%" height="315" :src="this.videos[$route.params.id].url" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
       </div>
       <div class="info">
-        <span>{{ this.pictures[$route.params.id].info }}</span>
+        <span>{{ this.videos[$route.params.id].info }}</span>
       </div>
     </div>
     <div class="mdl-cell mdl-cell--4-col mdl-cell--8-col-tablet">
       <div class="comment">
-        <span>{{ this.pictures[$route.params.id].comment }}</span>
+        <span>{{ this.videos[$route.params.id].comment }}</span>
       </div>
       <div class="description">
-          <span>{{ this.pictures[$route.params.id].desc }}</span>
+          <span>{{ this.videos[$route.params.id].desc }}</span>
       </div>
     </div>
   </div>
@@ -23,13 +23,13 @@ import data from '../data'
 export default {
   data () {
     return {
-      'pictures': data.pictures
+      'videos': data.videos
     }
   }
 }
 </script>
 <style scoped>
-  .picture > img {
+  .video > img {
     color: #fff;
     width:100%;
   }

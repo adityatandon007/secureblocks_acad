@@ -3,16 +3,16 @@
     <div class="mdl-grid">
       <div class="mdl-cell mdl-cell--3-col mdl-cell mdl-cell--1-col-tablet mdl-cell--hide-phone"></div>
       <div class="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone">
-        <div v-for="picture in this.pictures">
+        <div v-for="video in this.videos">
           <div class="mdl-card mdl-shadow--2dp wide-card">
             <div class="mdl-card__title">
-              <h2 class="mdl-card__title-text">{{ picture.comment }}</h2>
+              <h2 class="mdl-card__title-text">{{ video.comment }}</h2>
             </div>
             <div class="mdl-card__supporting-text">
-              {{ picture.desc }}
+              {{ video.desc }}
             </div>
             <div class="mdl-card__actions mdl-card--border">
-              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" @click="displayDetails(picture.id)">
+              <a class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" @click="displayDetails(video.id)">
                 Get Started
               </a>
               <div></div>
@@ -33,7 +33,7 @@
     },
     data () {
       return {
-        'pictures': data.pictures
+        'videos': data.videos
       }
     }
   }

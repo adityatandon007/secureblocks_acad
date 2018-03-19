@@ -1,5 +1,5 @@
 export default {
-  pictures: [
+  videos: [
     {
       'id': 0,
       'url': 'https://www.youtube.com/embed/nDO2W9iEPOk',
