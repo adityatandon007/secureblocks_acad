@@ -1,4 +1,4 @@
-# Secureblocks Acad [WIP]
+# Academy App [WIP]
 
 > A pwa video app for securelocks academy
 
