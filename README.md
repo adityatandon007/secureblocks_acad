@@ -1,6 +1,15 @@
-# secureblocks_acad_vids
+# Secureblocks Acad [WIP]
 
-> A pwa video app for securelocks academy 
+> A pwa video app for securelocks academy
+
+## To-Do
+
+- Frest & fast data
+- Connectivity Independent
+- Benefits from native features
+- Engaging
+
+** This is a work in progress. Run it in development environment only. Follow the below steps:**
 
 ## Build Setup
 
